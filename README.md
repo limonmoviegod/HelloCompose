@@ -11,8 +11,12 @@
 ## 📝 Опис проєкту
 Цей проєкт є першою лабораторною роботою з розробки мобільних застосунків. [cite_start]Він демонструє базове використання **Jetpack Compose**, налаштування робочого середовища та автоматизацію збірки через **GitHub Actions.
 
+<img src="./pic/img.png">
+
+
 ## 🚀 Як запустити проєкт
 1. **Встановлення середовища**: Переконайтеся, що у вас встановлена остання версія **Android Studio** та SDK Platform API 26+
 2. **Клонування**:
    ```bash
-   git clone [https://github.com/limonmoviegod/hellocompose.git](https://github.com/limonmoviegod/hellocompose.git)
+   git clone https://github.com/limonmoviegod/hellocompose.git
+   cd HelloCompose
