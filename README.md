@@ -1,60 +1,18 @@
-▶Як запустити проєкт
-Встановлення середовища
-Встановити Android Studio (остання стабільна версія)
-Встановити Android SDK (API 26+)
-Створити емулятор через AVD Manager
+# 📱 Hello Compose — Лабораторна робота №1
 
-Клонування репозиторію
-git clone https://github.com/limonmoviegod/hellocompose.git
-cd HelloCompose
+[![Android CI](https://github.com/limonmoviegod/hellocompose/actions/workflows/android-ci.yml/badge.svg)](https://github.com/limonmoviegod/hellocompose/actions)
+![Kotlin](https://img.shields.io/badge/kotlin-1.9.0-blue.svg)
+![Compose](https://img.shields.io/badge/Jetpack-Compose-green.svg)
 
-Запуск
-Відкрити проєкт у Android Studio
-Дочекатися Gradle Sync
-Натиснути Run ▶
-Обрати емулятор або фізичний пристрій
-GitFlow
+**Тема:** Встановлення Android Studio, створення «Hello Compose», налаштування GitFlow, Issue Templates та CI-шаблону
 
-У проєкті використовується стратегія GitFlow.
-Основні гілки:
-main — стабільна production-версія
-develop — основна гілка розробки
+---
 
-git checkout develop
-git checkout -b feature/new-feature
-Структура проєкту
-HelloCompose/
-│
-├── app/
-│   ├── src/
-│   ├── build.gradle.kts
-│
-├── .github/
-│   ├── workflows/android-ci.yml
-│   ├── ISSUE_TEMPLATE/
-│
-├── .gitignore
-├── README.md
-Issue Templates
+## 📝 Опис проєкту
+Цей проєкт є першою лабораторною роботою з розробки мобільних застосунків. [cite_start]Він демонструє базове використання **Jetpack Compose**, налаштування робочого середовища та автоматизацію збірки через **GitHub Actions.
 
-Додано шаблони:
-Bug Report
-Feature Request
-Pull Request Template
-
-Розташування:
-.github/ISSUE_TEMPLATE/
-CI (Continuous Integration)
-
-Налаштовано автоматичну перевірку через GitHub Actions.
-
-CI виконує:
-Збірку (assembleDebug)
-Запуск unit-тестів
-Lint перевірку
-
-Workflow файл:
-.github/workflows/android-ci.yml
-CI запускається при:
-push у main або develop
-pull request у main або develop
+## 🚀 Як запустити проєкт
+1. **Встановлення середовища**: Переконайтеся, що у вас встановлена остання версія **Android Studio** та SDK Platform API 26+
+2. **Клонування**:
+   ```bash
+   git clone [https://github.com/limonmoviegod/hellocompose.git](https://github.com/limonmoviegod/hellocompose.git)
